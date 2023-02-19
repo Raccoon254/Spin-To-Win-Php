@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,  
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": false,
+  "prettier.configPath": "../prettierrc.json",
+  "prettier.singleAttributePerLine": true,
+  "prettier.resolveGlobalModules": true,
+  "prettier.requireConfig": true,
+  "prettier.proseWrap": "always",
+  "prettier.quoteProps": "consistent",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.endOfLine": "auto",
+  "prettier.bracketSameLine": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+}
