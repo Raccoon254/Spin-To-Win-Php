@@ -476,16 +476,18 @@ You can watch ads and win.<span class="badge bg-warning">Coming Soon</span><br>
                         $amount = $row['amount'];
                         $type = $row['type'];
                         $status = $row['status'];
+                        $hello = "eat";
     
                         echo '
                         <li class="d-flex mb-4 pb-1">
                             <div class="avatar flex-shrink-0 me-3">
-                                <img src="../assets/img/icons/unicons/';echo"$type"; echo'.png" alt="User" class="rounded" />
+
+                                <img src="';echo"../assets/img/icons/unicons/$type.png"; echo'" alt="'; echo"$type"; echo'" class="rounded" />
                             </div>
                             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                 <div class="me-2">
                                     <small class="text-muted d-block mb-1">' ; echo "$status" ; echo '</small>
-                                    <h6 class="mb-0">' ; echo "$type" ; echo '</h6>
+                                    <h6 class="mb-0">' ; echo "$type" ;echo '</h6>
                                 </div>
                                 <div class="user-progress d-flex align-items-center gap-1">
                                     <h6 class="mb-0">
